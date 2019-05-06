@@ -1,0 +1,15 @@
+Convert org mode file to html
+
+NOTE: this is a simple demo and you can learn how to use antlr4 with python.
+
+
+Support following features:
+1. css config
+2. control title style like [id=cssstyle]
+
+
+Usage:
+#+BEGIN_SRC shell
+antlr4 -visitor -no-listener c.g
+python3 main.py test.org
+#+END_SRC
