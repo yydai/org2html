@@ -10,6 +10,6 @@ Support following features:
 
 Usage:
 #+BEGIN_SRC shell
-antlr4 -visitor -no-listener c.g
+antlr4 -visitor -no-listener c.g4
 python3 main.py test.org
 #+END_SRC
